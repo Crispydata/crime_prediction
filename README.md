@@ -26,4 +26,4 @@ Features:
 2. Age group
 
 Conclusion:
-Due to insufficient features in the crime data, predicted values were too high in new data.
+Due to insufficient features in the crime data, predicted values were inflated.
