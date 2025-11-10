@@ -30,6 +30,8 @@ def parse_variable(var):
         return None, None, None
 
 #Looping through each file and transform
+# Column names have format like M_Afghanistan_0_4, F_India_25_34 etc which contains the gender, country and age group.
+# These columns have been transposed into rows after extracting relevant information.
 for file_path in file_list:
     print(f"Processing file: {file_path}")
     
